@@ -21,7 +21,8 @@ def main(ifile, ofile):
 
 def print_help():
     print('Usage: ./genCG.py [input_file] [output_file]')
-    print('e.g  : ./genCG.py ../xls/FuncCov.xlsx ../output/out.sv')
+    print('e.g  : ./genCG.py xls/FuncCov.xlsx output/out.sv')
+
 
 if __name__ == '__main__':
     if len(sys.argv) != 3:

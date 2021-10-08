@@ -59,5 +59,4 @@ class CovGroup(CovBase):
             name=self._name, param=param, trigger=trigger, cp=cp_str)
         
         return str_
-        
-                
+
